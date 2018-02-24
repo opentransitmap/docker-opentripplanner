@@ -2,4 +2,3 @@
 
 exec java -Xmx"$JAVA_MX" -jar /usr/local/share/java/otp.jar "$@"
 #java -Dlogback.configurationFile=/logback.xml -Xmx"$JAVA_MX" -jar /usr/local/share/java/otp.jar --server --insecure --graphs /data --autoScan --autoReload
-#java -Xmx"$JAVA_MX" -jar /usr/local/share/java/otp.jar --build /data --inMemory

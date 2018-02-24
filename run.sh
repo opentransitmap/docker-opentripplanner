@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec otp --build /data --inMemory
+exec otp --build /data "$@"
